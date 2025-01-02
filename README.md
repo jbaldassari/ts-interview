@@ -1,7 +1,7 @@
 # ts-interview
 
 Simple project to use for technical interviews in TypeScript. Just clone the repo, open in your IDE of choice, and use
-Jest to execute.
+`npm test` to execute unit tests.
 
 # Requirements
 
