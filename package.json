@@ -9,12 +9,12 @@
     "check:eslint": "eslint src",
     "check:prettier": "prettier --check 'src/**/*.{js,ts,tsx}'",
     "check:types": "tsc",
+    "check:upgrade": "ncu -i",
     "fix": "npm run fix:eslint && npm run fix:prettier",
     "fix:eslint": "eslint --fix src ",
     "fix:prettier": "prettier --write 'src/**/*.{js,ts,tsx}'",
     "test": "NODE_ENV=test vitest",
-    "test:coverage": "NODE_ENV=test vitest run --coverage",
-    "upgrade": "ncu -i"
+    "test:coverage": "NODE_ENV=test vitest run --coverage"
   },
   "devDependencies": {
     "@babel/cli": "7.28.0",
@@ -35,6 +35,5 @@
     "typescript": "5.8.3",
     "typescript-eslint": "8.35.1",
     "vitest": "3.2.4"
-  },
-  "packageManager": "pnpm@10.12.4"
+  }
 }
